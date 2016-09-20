@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8In-fT-qAL">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="pLu-SL-PhL">
+            <objects>
+                <viewController id="62C-YR-N1V" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4P2-h2-JT7"/>
+                        <viewControllerLayoutGuide type="bottom" id="SgT-TO-eP1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MV4-Ol-QQg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" selectedImage="right-arrow" systemItem="topRated" id="Lwe-xL-oS3">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="2" vertical="0.0"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O3K-hu-7Ap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="240.80000000000001" y="74.212893553223395"/>
+        </scene>
+        <!--Job Details View Controller-->
+        <scene sceneID="cPa-jT-fSH">
+            <objects>
+                <viewController id="Jhj-mv-zJW" customClass="JobDetailsViewController" customModule="Adecco" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a1f-Uz-JyV"/>
+                        <viewControllerLayoutGuide type="bottom" id="sMW-lG-uBk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qOY-yl-M6e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="s1g-bV-mUh">
+                                <frame key="frameInset" minX="319" minY="42" width="48" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES" staticText="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button" image="save-heart"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="uaN-qm-k06">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2h0-K1-BgG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="242" y="-580"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Xed-uO-lmA">
+            <objects>
+                <tabBarController id="8In-fT-qAL" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cVt-FO-4XF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Jhj-mv-zJW" kind="relationship" relationship="viewControllers" id="q4o-4a-ssx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jHa-pT-TRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-711" y="-252"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="right-arrow" width="31" height="21"/>
+        <image name="save-heart" width="42" height="34"/>
+    </resources>
+    <color key="tintColor" red="1" green="0.0" blue="0.02053295671066202" alpha="1" colorSpace="calibratedRGB"/>
+</document>

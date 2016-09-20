@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340FBFE21D1C6DF000F18116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FBFE11D1C6DF000F18116 /* AppDelegate.swift */; };
+		340FBFE41D1C6DF000F18116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FBFE31D1C6DF000F18116 /* ViewController.swift */; };
+		340FBFE71D1C6DF000F18116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340FBFE51D1C6DF000F18116 /* Main.storyboard */; };
+		340FBFE91D1C6DF000F18116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340FBFE81D1C6DF000F18116 /* Assets.xcassets */; };
+		340FBFEC1D1C6DF000F18116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340FBFEA1D1C6DF000F18116 /* LaunchScreen.storyboard */; };
+		340FBFF71D1C6DF000F18116 /* AdeccoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FBFF61D1C6DF000F18116 /* AdeccoTests.swift */; };
+		340FC0021D1C6DF000F18116 /* AdeccoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC0011D1C6DF000F18116 /* AdeccoUITests.swift */; };
+		340FC0101D1C707C00F18116 /* JobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FC00F1D1C707C00F18116 /* JobDetailsViewController.swift */; };
+		340FC0131D1C753500F18116 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340FC0121D1C753500F18116 /* UIKit.framework */; };
+		340FC0151D1C753E00F18116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340FC0141D1C753E00F18116 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		340FBFF31D1C6DF000F18116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 340FBFD61D1C6DF000F18116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 340FBFDD1D1C6DF000F18116;
+			remoteInfo = Adecco;
+		};
+		340FBFFE1D1C6DF000F18116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 340FBFD61D1C6DF000F18116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 340FBFDD1D1C6DF000F18116;
+			remoteInfo = Adecco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		340FBFDE1D1C6DF000F18116 /* Adecco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adecco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		340FBFE11D1C6DF000F18116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		340FBFE31D1C6DF000F18116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		340FBFE61D1C6DF000F18116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		340FBFE81D1C6DF000F18116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		340FBFEB1D1C6DF000F18116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		340FBFED1D1C6DF000F18116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340FBFF21D1C6DF000F18116 /* AdeccoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdeccoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		340FBFF61D1C6DF000F18116 /* AdeccoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdeccoTests.swift; sourceTree = "<group>"; };
+		340FBFF81D1C6DF000F18116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340FBFFD1D1C6DF000F18116 /* AdeccoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdeccoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		340FC0011D1C6DF000F18116 /* AdeccoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdeccoUITests.swift; sourceTree = "<group>"; };
+		340FC0031D1C6DF000F18116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340FC00F1D1C707C00F18116 /* JobDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobDetailsViewController.swift; path = ../JobDetailsViewController.swift; sourceTree = "<group>"; };
+		340FC0121D1C753500F18116 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		340FC0141D1C753E00F18116 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		340FBFDB1D1C6DF000F18116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340FC0151D1C753E00F18116 /* Foundation.framework in Frameworks */,
+				340FC0131D1C753500F18116 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340FBFEF1D1C6DF000F18116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340FBFFA1D1C6DF000F18116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340FBFD51D1C6DF000F18116 = {
+			isa = PBXGroup;
+			children = (
+				340FBFE01D1C6DF000F18116 /* Adecco */,
+				340FBFF51D1C6DF000F18116 /* AdeccoTests */,
+				340FC0001D1C6DF000F18116 /* AdeccoUITests */,
+				340FBFDF1D1C6DF000F18116 /* Products */,
+				340FC0111D1C753500F18116 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		340FBFDF1D1C6DF000F18116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				340FBFDE1D1C6DF000F18116 /* Adecco.app */,
+				340FBFF21D1C6DF000F18116 /* AdeccoTests.xctest */,
+				340FBFFD1D1C6DF000F18116 /* AdeccoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		340FBFE01D1C6DF000F18116 /* Adecco */ = {
+			isa = PBXGroup;
+			children = (
+				340FC00F1D1C707C00F18116 /* JobDetailsViewController.swift */,
+				340FBFE11D1C6DF000F18116 /* AppDelegate.swift */,
+				340FBFE31D1C6DF000F18116 /* ViewController.swift */,
+				340FBFE51D1C6DF000F18116 /* Main.storyboard */,
+				340FBFE81D1C6DF000F18116 /* Assets.xcassets */,
+				340FBFEA1D1C6DF000F18116 /* LaunchScreen.storyboard */,
+				340FBFED1D1C6DF000F18116 /* Info.plist */,
+			);
+			path = Adecco;
+			sourceTree = "<group>";
+		};
+		340FBFF51D1C6DF000F18116 /* AdeccoTests */ = {
+			isa = PBXGroup;
+			children = (
+				340FBFF61D1C6DF000F18116 /* AdeccoTests.swift */,
+				340FBFF81D1C6DF000F18116 /* Info.plist */,
+			);
+			path = AdeccoTests;
+			sourceTree = "<group>";
+		};
+		340FC0001D1C6DF000F18116 /* AdeccoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				340FC0011D1C6DF000F18116 /* AdeccoUITests.swift */,
+				340FC0031D1C6DF000F18116 /* Info.plist */,
+			);
+			path = AdeccoUITests;
+			sourceTree = "<group>";
+		};
+		340FC0111D1C753500F18116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				340FC0141D1C753E00F18116 /* Foundation.framework */,
+				340FC0121D1C753500F18116 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		340FBFDD1D1C6DF000F18116 /* Adecco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340FC0061D1C6DF000F18116 /* Build configuration list for PBXNativeTarget "Adecco" */;
+			buildPhases = (
+				340FBFDA1D1C6DF000F18116 /* Sources */,
+				340FBFDB1D1C6DF000F18116 /* Frameworks */,
+				340FBFDC1D1C6DF000F18116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adecco;
+			productName = Adecco;
+			productReference = 340FBFDE1D1C6DF000F18116 /* Adecco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		340FBFF11D1C6DF000F18116 /* AdeccoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340FC0091D1C6DF000F18116 /* Build configuration list for PBXNativeTarget "AdeccoTests" */;
+			buildPhases = (
+				340FBFEE1D1C6DF000F18116 /* Sources */,
+				340FBFEF1D1C6DF000F18116 /* Frameworks */,
+				340FBFF01D1C6DF000F18116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340FBFF41D1C6DF000F18116 /* PBXTargetDependency */,
+			);
+			name = AdeccoTests;
+			productName = AdeccoTests;
+			productReference = 340FBFF21D1C6DF000F18116 /* AdeccoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		340FBFFC1D1C6DF000F18116 /* AdeccoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340FC00C1D1C6DF000F18116 /* Build configuration list for PBXNativeTarget "AdeccoUITests" */;
+			buildPhases = (
+				340FBFF91D1C6DF000F18116 /* Sources */,
+				340FBFFA1D1C6DF000F18116 /* Frameworks */,
+				340FBFFB1D1C6DF000F18116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340FBFFF1D1C6DF000F18116 /* PBXTargetDependency */,
+			);
+			name = AdeccoUITests;
+			productName = AdeccoUITests;
+			productReference = 340FBFFD1D1C6DF000F18116 /* AdeccoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		340FBFD61D1C6DF000F18116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Adecco;
+				TargetAttributes = {
+					340FBFDD1D1C6DF000F18116 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					340FBFF11D1C6DF000F18116 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 340FBFDD1D1C6DF000F18116;
+					};
+					340FBFFC1D1C6DF000F18116 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 340FBFDD1D1C6DF000F18116;
+					};
+				};
+			};
+			buildConfigurationList = 340FBFD91D1C6DF000F18116 /* Build configuration list for PBXProject "Adecco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 340FBFD51D1C6DF000F18116;
+			productRefGroup = 340FBFDF1D1C6DF000F18116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				340FBFDD1D1C6DF000F18116 /* Adecco */,
+				340FBFF11D1C6DF000F18116 /* AdeccoTests */,
+				340FBFFC1D1C6DF000F18116 /* AdeccoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		340FBFDC1D1C6DF000F18116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340FBFEC1D1C6DF000F18116 /* LaunchScreen.storyboard in Resources */,
+				340FBFE91D1C6DF000F18116 /* Assets.xcassets in Resources */,
+				340FBFE71D1C6DF000F18116 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340FBFF01D1C6DF000F18116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340FBFFB1D1C6DF000F18116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		340FBFDA1D1C6DF000F18116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340FBFE41D1C6DF000F18116 /* ViewController.swift in Sources */,
+				340FC0101D1C707C00F18116 /* JobDetailsViewController.swift in Sources */,
+				340FBFE21D1C6DF000F18116 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340FBFEE1D1C6DF000F18116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340FBFF71D1C6DF000F18116 /* AdeccoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340FBFF91D1C6DF000F18116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340FC0021D1C6DF000F18116 /* AdeccoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		340FBFF41D1C6DF000F18116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 340FBFDD1D1C6DF000F18116 /* Adecco */;
+			targetProxy = 340FBFF31D1C6DF000F18116 /* PBXContainerItemProxy */;
+		};
+		340FBFFF1D1C6DF000F18116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 340FBFDD1D1C6DF000F18116 /* Adecco */;
+			targetProxy = 340FBFFE1D1C6DF000F18116 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		340FBFE51D1C6DF000F18116 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				340FBFE61D1C6DF000F18116 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		340FBFEA1D1C6DF000F18116 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				340FBFEB1D1C6DF000F18116 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		340FC0041D1C6DF000F18116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		340FC0051D1C6DF000F18116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		340FC0071D1C6DF000F18116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Adecco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.Adecco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		340FC0081D1C6DF000F18116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Adecco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.Adecco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		340FC00A1D1C6DF000F18116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdeccoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.AdeccoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adecco.app/Adecco";
+			};
+			name = Debug;
+		};
+		340FC00B1D1C6DF000F18116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdeccoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.AdeccoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adecco.app/Adecco";
+			};
+			name = Release;
+		};
+		340FC00D1D1C6DF000F18116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdeccoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.AdeccoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Adecco;
+			};
+			name = Debug;
+		};
+		340FC00E1D1C6DF000F18116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdeccoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.AdeccoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Adecco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		340FBFD91D1C6DF000F18116 /* Build configuration list for PBXProject "Adecco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340FC0041D1C6DF000F18116 /* Debug */,
+				340FC0051D1C6DF000F18116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340FC0061D1C6DF000F18116 /* Build configuration list for PBXNativeTarget "Adecco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340FC0071D1C6DF000F18116 /* Debug */,
+				340FC0081D1C6DF000F18116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		340FC0091D1C6DF000F18116 /* Build configuration list for PBXNativeTarget "AdeccoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340FC00A1D1C6DF000F18116 /* Debug */,
+				340FC00B1D1C6DF000F18116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		340FC00C1D1C6DF000F18116 /* Build configuration list for PBXNativeTarget "AdeccoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340FC00D1D1C6DF000F18116 /* Debug */,
+				340FC00E1D1C6DF000F18116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 340FBFD61D1C6DF000F18116 /* Project object */;
+}
